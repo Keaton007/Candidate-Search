@@ -1,0 +1,32 @@
+/* Nav.css */
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #313743;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .nav-link {
+    margin-right: 20px;
+    color: #cbe957;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    color: #c68dfe;
+    text-decoration: underline;
+  }
+  
+  body {
+    margin-top: 50px;
+  }
+  
